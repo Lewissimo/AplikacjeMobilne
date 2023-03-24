@@ -12,6 +12,14 @@
         android:theme="@style/Theme.RecipeApp"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Recipe"
+            android:exported="false"
+            android:label="@string/title_activity_recipe"
+            android:theme="@style/Theme.RecipeApp.NoActionBar" />
+        <activity
             android:name=".Main_list"
             android:exported="false" />
         <activity
