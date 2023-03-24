@@ -1,0 +1,90 @@
+{
+  "categories": [
+    {
+      "sweets": [
+        {
+          "name": "Brownie",
+          "time_of_preparing": 30,
+          "amount_of_steps": 14,
+          "ingredients": [
+            {
+            "ingredient": "masło",
+            "amount": 300
+            },
+            {
+              "ingredient": "czekolada mleczna",
+              "amount": 100
+            },
+            {
+              "ingredient": "czekolada gorzka",
+              "amount": 80
+            }
+          ],
+          "steps": [
+            "Połącz czekoladę z masłem",
+            "zjedz kawałek czkolady jak szef",
+            "pomieszaj"
+          ]
+        },
+        {
+          "name": "Sernik",
+          "time_of_preparing": 25,
+          "amount_of_steps": 14,
+          "ingredients": [
+            {
+              "ingredient": "masło",
+              "amount": 300
+            },
+            {
+              "ingredient": "czekolada mleczna",
+              "amount": 100
+            },
+            {
+              "ingredient": "czekolada gorzka",
+              "amount": 80
+            }
+          ],
+          "steps": [
+            "Połącz czekoladę z masłem",
+            "zjedz kawałek czkolady jak szef",
+            "pomieszaj"
+          ]
+        },
+        {
+          "name": "Placek z kruszonką",
+          "time_of_preparing": 40,
+          "amount_of_steps": 23,
+          "ingredients": [
+            {
+              "ingredient": "masło",
+              "amount": 300
+            },
+            {
+              "ingredient": "czekolada mleczna",
+              "amount": 100
+            },
+            {
+              "ingredient": "czekolada gorzka",
+              "amount": 80
+            }
+          ],
+          "steps": [
+            "Połącz czekoladę z masłem",
+            "zjedz kawałek czkolady jak szef",
+            "pomieszaj"
+          ]
+        }
+      ]
+    },
+    {
+      "drinks": [
+
+      ]
+    },
+    {
+      "dinners": [
+
+      ]
+    }
+  ]
+}
