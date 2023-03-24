@@ -1,36 +1,76 @@
 package com.example.recipeapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageButton
+import android.util.Log
+import android.widget.GridLayout
+import android.widget.TextView
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
+import java.io.BufferedReader
+import java.io.InputStream
+import java.io.InputStreamReader
+
+
+
+
+// Objects to store data from json file
+
+data class JSONData(
+    val categories: Categories
+)
+
+data class Categories(
+    val dinners: List<Any>,
+    val drinks: List<Any>,
+    val sweets: List<Sweet>
+)
+
+data class Sweet(
+    val amount_of_steps: Int,
+    val ingredients: List<Ingredient>,
+    val name: String,
+    val steps: List<String>,
+    val time_of_preparing: Int
+)
+
+data class Ingredient(
+    val amount: Int,
+    val ingredient: String
+)
+
+//----------------------------
+
+
+
+//
+
+
+
+
+
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val button1:ImageButton = findViewById(R.id.imageButton);
-        button1.setOnClickListener {
-            val intent = Intent(this@MainActivity, Recipe::class.java)
-            intent.putExtra("title", "Simple White 1")
-            startActivity(intent)
-        }
 
-        val button2:ImageButton = findViewById(R.id.imageButton2);
-        button2.setOnClickListener {
-            val intent = Intent(this@MainActivity, Recipe::class.java)
-            intent.putExtra("title", "Simple White 2")
-            startActivity(intent)
-        }
+//        Reading data from json
+            val gson = Gson()
+            val inputF: InputStream = assets.open("recipes.json")
+            val json = BufferedReader(InputStreamReader(inputF))
+            val ecp = gson.fromJson(json, JSONData::class.java)
 
-        val button3:ImageButton = findViewById(R.id.imageButton3);
-        button3.setOnClickListener {
-            val intent = Intent(this@MainActivity, Recipe::class.java)
-            intent.putExtra("title", "Simple White 3")
-            startActivity(intent)
-        }
 
-        print("reload")
+//        Displaying ingredients
+
+            val recyclerView: RecyclerView = findViewById(R.id.optionsBox)
+            recyclerView.layoutManager = GridLayoutManager(this, 3)
+            recyclerView.adapter
+
+
+
     }
 }
