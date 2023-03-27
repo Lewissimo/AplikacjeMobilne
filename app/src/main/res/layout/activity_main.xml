@@ -29,7 +29,8 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <ImageButton
             android:id="@+id/imageButton"
@@ -100,14 +101,27 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="389dp"
-        android:layout_marginTop="213dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/optionsBox"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </ScrollView>
+
+    <!--    <ScrollView-->
+<!--        android:layout_width="408dp"-->
+<!--        android:layout_height="391dp"-->
+<!--        android:layout_marginTop="213dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        -->
+<!--    </ScrollView>-->
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
