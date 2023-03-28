@@ -1,0 +1,203 @@
+[
+    {
+      "name": "sernik",
+      "img": "sernik",
+      "steps": [
+        "1. Rozgrzej piekarnik do 180°C.",
+        "2. Rozdrobnij ciastka kruchego w malakserze.",
+        "3. Dodaj do niego masło i zetrzyj razem na jednolitą masę.",
+        "4. Wylej masę do tortownicy o średnicy 22 cm, wyrównaj i dociskaj do spodu.",
+        "5. Wymieszaj twaróg, cukier, cukier waniliowy, mąkę ziemniaczaną i skórkę z cytryny w misce.",
+        "6. Dodaj jajka i wymieszaj na jednolitą masę.",
+        "7. Wlej masę serową na ciasto kruche.",
+        "8. Wstaw tortownicę do piekarnika i piecz przez około 50 minut.",
+        "9. Po upieczeniu wyjmij sernik z piekarnika i pozostaw do ostygnięcia.",
+        "10. Przed podaniem posyp sernik cukrem pudrem."
+      ],
+      "ingredients": [
+        "1 kg sera twarogowego",
+        "6 jajek",
+        "1 łyżka mąki ziemniaczanej",
+        "1 łyżka cukru",
+        "1 opakowanie cukru wanilinowego",
+        "2 łyżki masła",
+        "1 szklanka kwaśnej śmietany",
+        "1 szklanka cukru",
+        "3 łyżki mąki pszennej",
+        "2 jajka",
+        "2 żółtka",
+        "2 białka"
+      ]
+    },
+  {
+    "name": "ciasto marchewkowe",
+    "img": "marchewkowe",
+    "steps": [
+      "1. Rozgrzej piekarnik do 180°C.",
+      "2. Wymieszaj mąkę, cukier, sodę oczyszczoną, cynamon i sól w misce.",
+      "3. Dodaj jajka, olej i marchewkę do suchej mieszanki i wymieszaj razem.",
+      "4. Wlej ciasto do tortownicy o średnicy 22 cm i piecz przez około 40-45 minut.",
+      "5. Po upieczeniu wyjmij ciasto z piekarnika i pozostaw do ostygnięcia.",
+      "6. Przed podaniem posyp ciasto cukrem pudrem."
+    ],
+    "ingredients": [
+      "2 szklanki mąki pszennej",
+      "2 szklanki startej marchewki",
+      "1 1/2 szklanki cukru",
+      "1/2 szklanki oleju",
+      "2 jajka",
+      "2 łyżeczki sody oczyszczonej",
+      "2 łyżeczki cynamonu",
+      "1/2 łyżeczki soli"
+    ]
+  },
+  {
+    "name": "ciasto czekoladowe",
+    "img": "czekoladowe",
+    "steps": [
+      "1. Rozgrzej piekarnik do 180°C.",
+      "2. Wymieszaj mąkę, cukier, kakao, proszek do pieczenia, sodę oczyszczoną i sól w misce.",
+      "3. Dodaj jajka, mleko, olej i ekstrakt waniliowy do suchej mieszanki i wymieszaj razem.",
+      "4. Wlej ciasto do tortownicy o średnicy 22 cm i piecz przez około 30-35 minut.",
+      "5. Po upieczeniu wyjmij ciasto z piekarnika i pozostaw do ostygnięcia.",
+      "6. Przed podaniem posyp ciasto cukrem pudrem lub polej gorącą czekoladą."
+    ],
+    "ingredients": [
+      "1 3/4 szklanki mąki pszennej",
+      "1 3/4 szklanki cukru",
+      "3/4 szklanki kakao",
+      "1 1/2 łyżeczki proszku do pieczenia",
+      "1 1/2 łyżeczki sody oczyszczonej",
+      "1/2 łyżeczki soli",
+      "2 jajka",
+      "1 szklanka mleka",
+      "1/2 szklanki oleju roślinnego",
+      "2 łyżeczki ekstraktu waniliowego"
+    ]
+  },
+  {
+    "name": "Sernik z kokosem",
+    "img": "sernik_z_kokosem",
+    "steps": [
+      "1. Rozgrzej piekarnik do 180°C.",
+      "2. Rozdrobnij ciastka i połącz z masłem, tworząc jednolitą masę.",
+      "3. Przełóż masę do formy i równomiernie rozprowadź po dnie.",
+      "4. Wymieszaj twaróg z jajkami, cukrem, cukrem waniliowym i mąką.",
+      "5. Dodaj mleko, starty kokos oraz sok z cytryny.",
+      "6. Wymieszaj dokładnie składniki i wlej masę na ciasto.",
+      "7. Wstaw formę do piekarnika i piecz przez ok. 60 minut.",
+      "8. Po upieczeniu wyjmij sernik z piekarnika i pozostaw do ostygnięcia.",
+      "9. Przed podaniem posyp sernik wiórkami kokosowymi."
+    ],
+    "ingredients": [
+      "300 g herbatników",
+      "150 g masła",
+      "1 kg twarogu",
+      "5 jajek",
+      "1 szklanka cukru",
+      "1 opakowanie cukru wanilinowego",
+      "3 łyżki mąki",
+      "1 szklanka mleka",
+      "1/2 szklanki startego kokosa",
+      "1/2 szklanki soku z cytryny",
+      "Wiórki kokosowe do posypania"
+    ]
+  },
+  {
+    "name": "babeczki cytrynowe",
+    "img": "babeczka_cytrynowa",
+    "steps": [
+      "1. Rozgrzej piekarnik do 180°C.",
+      "2. Wymieszaj w misce mąkę, proszek do pieczenia i sól.",
+      "3. W osobnej misce ubij jajka z cukrem na puszystą masę.",
+      "4. Dodaj stopniowo olej i mleko, ciągle mieszając.",
+      "5. Wlej mokre składniki do suchych i wymieszaj do połączenia.",
+      "6. Dodaj skórkę i sok z cytryny i wymieszaj.",
+      "7. Wypełnij foremki na muffiny 3/4 pełnią ciasta.",
+      "8. Piecz w piekarniku przez około 20 minut.",
+      "9. Ostudzone babeczki udekoruj lukrem cytrynowym."
+    ],
+    "ingredients": [
+      "1 1/2 szklanki mąki pszennej",
+      "1 1/2 łyżeczki proszku do pieczenia",
+      "1/2 łyżeczki soli",
+      "2 jajka",
+      "3/4 szklanki cukru",
+      "1/2 szklanki oleju",
+      "1/2 szklanki mleka",
+      "1/4 szklanki skórki z cytryny",
+      "1/4 szklanki soku z cytryny"
+    ]
+  },
+  {
+    "name": "tarta owocowa",
+    "img": "tarta_owocowa",
+    "steps": [
+      "1. Rozgrzej piekarnik do 180°C.",
+      "2. Przygotuj ciasto tartowe: wymieszaj mąkę, cukier i sól w misce.",
+      "3. Dodaj masło i rozgnieć widelcem, aż powstanie kruche ciasto.",
+      "4. Wyrównaj ciasto w formie do tarty.",
+      "5. Ułóż na ciasto owoce.",
+      "6. Piecz w piekarniku przez około 40 minut.",
+      "7. Ostudzoną tartę posyp cukrem pudrem."
+    ],
+    "ingredients": [
+      "1 1/2 szklanki mąki pszennej",
+      "1/4 szklanki cukru",
+      "1/4 łyżeczki soli",
+      "1/2 szklanki masła",
+      "2 szklanki ulubionych owoców",
+      "cukier puder do posypania"
+    ]
+  },
+  {
+    "name": "Brownie",
+    "img": "brownie",
+    "steps": [
+      "1. Rozgrzej piekarnik do 180°C.",
+      "2. Wymieszaj mąkę, kakao, sól i proszek do pieczenia w misce.",
+      "3. W drugiej misce rozpuść masło, a następnie dodaj cukier i cukier waniliowy i dokładnie wymieszaj.",
+      "4. Dodaj jajka i wymieszaj do połączenia.",
+      "5. Dodaj mąkę z kakao do masy jajecznej i wymieszaj, aż składniki się połączą.",
+      "6. Wlej masę do formy i wstaw do piekarnika.",
+      "7. Piecz przez około 25-30 minut.",
+      "8. Po upieczeniu wyjmij z piekarnika i pozostaw do ostygnięcia.",
+      "9. Przed podaniem posyp cukrem pudrem."
+    ],
+    "ingredients": [
+      "150 g mąki",
+      "100 g kakao",
+      "1/4 łyżeczki soli",
+      "1/2 łyżeczki proszku do pieczenia",
+      "200 g masła",
+      "300 g cukru",
+      "1 łyżka cukru waniliowego",
+      "4 jajka",
+      "cukier puder do posypania"
+    ]
+  },
+  {
+    "name": "Babka piaskowa",
+    "img": "babka_piaskowa",
+    "steps": [
+      "1. Rozgrzej piekarnik do 170°C.",
+      "2. Wymieszaj w misce mąkę, cukier, proszek do pieczenia i sól.",
+      "3. W osobnej misce roztrzep jajka z mlekiem i olejem.",
+      "4. Wlej mieszankę jajeczno-mleczną do miski z suchymi składnikami i wymieszaj na jednolitą masę.",
+      "5. Wlej ciasto do formy keksowej o wymiarach około 25x10 cm.",
+      "6. Piecz babkę przez około 50 minut, aż nabierze złocistego koloru i wierzch zacznie pękać.",
+      "7. Wyjmij babkę z piekarnika i pozostaw do ostygnięcia.",
+      "8. Przed podaniem posyp babkę cukrem pudrem."
+    ],
+    "ingredients": [
+      "2 szklanki mąki pszennej",
+      "1 szklanka cukru",
+      "3 jajka",
+      "1/2 szklanki mleka",
+      "1/2 szklanki oleju",
+      "2 łyżeczki proszku do pieczenia",
+      "szczypta soli",
+      "cukier puder do posypania"
+    ]
+  }
+]

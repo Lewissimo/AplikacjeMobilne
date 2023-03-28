@@ -1,53 +1,35 @@
 package com.example.recipeapp
 
+import android.content.Context
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.GridLayout
+import android.widget.ImageButton
+import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager.widget.ViewPager
+import androidx.viewpager2.adapter.FragmentStateAdapter
+import androidx.viewpager2.widget.ViewPager2
+import com.example.recipeapp.adapters.MainViewPagerAdapter
+import com.example.recipeapp.mainMenuFragments.DinnersPage
+import com.example.recipeapp.mainMenuFragments.DrinksPage
+import com.example.recipeapp.mainMenuFragments.SweetsPage
 import com.google.gson.Gson
+import org.json.JSONObject
 import java.io.BufferedReader
+import java.io.File
 import java.io.InputStream
 import java.io.InputStreamReader
-
-
-
-
-// Objects to store data from json file
-
-data class JSONData(
-    val categories: Categories
-)
-
-data class Categories(
-    val dinners: List<Any>,
-    val drinks: List<Any>,
-    val sweets: List<Sweet>
-)
-
-data class Sweet(
-    val amount_of_steps: Int,
-    val ingredients: List<Ingredient>,
-    val name: String,
-    val steps: List<String>,
-    val time_of_preparing: Int
-)
-
-data class Ingredient(
-    val amount: Int,
-    val ingredient: String
-)
-
-//----------------------------
-
-
-
-//
-
-
-
 
 
 
@@ -57,20 +39,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        Reading data from json
-            val gson = Gson()
-            val inputF: InputStream = assets.open("recipes.json")
-            val json = BufferedReader(InputStreamReader(inputF))
-            val ecp = gson.fromJson(json, JSONData::class.java)
 
+        val viewPager2 = findViewById<ViewPager2>(R.id.viewPager)
+        val fragmentList = arrayListOf(SweetsPage(), DrinksPage(), DinnersPage())
+        val adapter = ViewPagerAdapter(this, fragmentList)
+        viewPager2.adapter = adapter
+    }
 
-//        Displaying ingredients
+    private inner class ViewPagerAdapter(
+        fragmentActivity: FragmentActivity,
+        private val fragmentList: ArrayList<Fragment>
+    ) : FragmentStateAdapter(fragmentActivity) {
 
-            val recyclerView: RecyclerView = findViewById(R.id.optionsBox)
-            recyclerView.layoutManager = GridLayoutManager(this, 3)
-            recyclerView.adapter
+        override fun getItemCount(): Int {
+            return fragmentList.size
+        }
 
+        override fun createFragment(position: Int): Fragment {
 
-
+            return fragmentList[position]
+        }
     }
 }

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Martini",
+    "img": "martini",
+    "steps": [
+      "1. Wypełnij szklankę lodem.",
+      "2. Dodaj 50 ml ginu i 15 ml wermutu.",
+      "3. Wymieszaj delikatnie łyżką barmańską.",
+      "4. Przecedź do schłodzonej szklanki koktajlowej.",
+      "5. Dodaj skórkę cytryny lub oliwkę jako dekorację.",
+      "6. Podawaj natychmiast."
+    ],
+    "ingredients": [
+      "50 ml ginu",
+      "15 ml wermutu",
+      "lód",
+      "skórka cytryny lub oliwka do dekoracji"
+    ]
+  },
+  {
+    "name": "Piña colada",
+    "img": "pinacolada",
+    "steps": [
+      "1. W blenderze zmiksuj 50 ml rumu, 75 ml soku ananasowego, 50 ml mleka kokosowego i garść lodu.",
+      "2. Wymieszaj do uzyskania kremowej konsystencji.",
+      "3. Przelej do wysokiej szklanki.",
+      "4. Dekoruj kawałkiem ananasa lub kiwi.",
+      "5. Podawaj z rurką do picia."
+    ],
+    "ingredients": [
+      "50 ml rumu",
+      "75 ml soku ananasowego",
+      "50 ml mleka kokosowego",
+      "garść lodu",
+      "kawałek ananasa lub kiwi do dekoracji",
+      "rurka do picia"
+    ]
+  },
+  {
+    "name": "Margarita",
+    "img": "margarita",
+    "steps": [
+      "1. Wypełnij shaker lodem.",
+      "2. Dodaj 50 ml tequili, 25 ml soku z limonki i 15 ml syropu cukrowego.",
+      "3. Wstrząśnij energicznie.",
+      "4. Przelej do szklanki do Margarity wypełnionej lodem.",
+      "5. Dekoruj plasterkiem limonki.",
+      "6. Podawaj z solą na brzegu szklanki."
+    ],
+    "ingredients": [
+      "50 ml tequili",
+      "25 ml soku z limonki",
+      "15 ml syropu cukrowego",
+      "lód",
+      "plasterki limonki do dekoracji",
+      "sól do posypania brzegu szklanki"
+    ]
+  },
+  {
+    "name": "Cosmopolitan",
+    "img": "cosmopolitan",
+    "steps": [
+      "1. Wypełnij shaker lodem.",
+      "2. Dodaj 50 ml wódki, 25 ml soku z żurawiny, 15 ml soku z cytryny i 10 ml Triple Sec.",
+      "3. Wstrząśnij energicznie.",
+      "4. Przelej do szklanki koktajlowej wypełnionej lodem.",
+      "5. Dekoruj plasterkiem cytryny lub pomarańczy.",
+      "6. Podawaj ze skórką cytryny."
+    ],
+    "ingredients": [
+      "50 ml wódki",
+      "25 ml soku z żurawiny",
+      "15 ml soku z cytryny",
+      "10 ml Triple Sec",
+      "lód",
+      "plasterki cytryny lub pomarańczy do dekoracji"
+    ]
+  },
+  {
+    "name": "Gin Fizz",
+    "img": "gin_fizz",
+    "steps": [
+      "1. Wypełnij shaker lodem.",
+      "2. Dodaj 50 ml ginu, 25 ml soku z cytryny i 15 ml syropu cukrowego.",
+      "3. Wstrząśnij energicznie.",
+      "4. Przelej do szklanki wypełnionej lodem.",
+      "5. Wlej wodę sodową do szklanki.",
+      "6. Dekoruj plasterkiem cytryny lub limonki.",
+      "7. Podawaj ze słomką."
+    ],
+    "ingredients": [
+      "50 ml ginu",
+      "25 ml soku z cytryny",
+      "15 ml syropu cukrowego",
+      "lód",
+      "woda sodowa",
+      "plasterki cytryny lub limonki do dekoracji"
+    ]
+  },
+  {
+    "name": "Mojito",
+    "img": "mojito",
+    "steps": [
+      "1. Przygotuj szklankę z lodem.",
+      "2. Wymieszaj w szklance miętę, cukier, sok z limonki i łyżkę wody.",
+      "3. Dodaj 50 ml białego rumu.",
+      "4. Wypełnij szklankę wodą gazowaną.",
+      "5. Delikatnie wymieszaj.",
+      "6. Dekoruj miętą i plasterkiem limonki.",
+      "7. Podawaj ze słomką."
+    ],
+    "ingredients": [
+      "50 ml białego rumu",
+      "kilka listków mięty",
+      "1 łyżka cukru",
+      "sok z połowy limonki",
+      "woda gazowana",
+      "lód",
+      "mięta i plasterki limonki do dekoracji"
+    ]
+  },
+  {
+    "name": "Sex on the Beach",
+    "img": "sex_on_the_beach",
+    "steps": [
+      "1. Wypełnij shaker lodem.",
+      "2. Dodaj 50 ml wódki, 25 ml soku brzoskwiniowego, 25 ml soku żurawinowego i 50 ml soku pomarańczowego.",
+      "3. Wstrząśnij energicznie.",
+      "4. Przelej do szklanki wypełnionej lodem.",
+      "5. Dekoruj kawałkami ananasa i wiśniami.",
+      "6. Podawaj z dekoracją parasolki.",
+    ],
+    "ingredients": [
+      "50 ml wódki",
+      "25 ml soku brzoskwiniowego",
+      "25 ml soku żurawinowego",
+      "50 ml soku pomarańczowego",
+      "lód",
+      "kawałki ananasa i wiśnie do dekoracji",
+      "parasolka do dekoracji"
+    ]
+  },
+  {
+    "name": "Caipirinha",
+    "img": "caipirinha",
+    "steps": [
+      "1. Przygotuj szklankę do drinka.",
+      "2. Włóż do niej kawałki limonki i łyżeczkę cukru.",
+      "3. Rozgnieć limonkę i cukier.",
+      "4. Wypełnij szklankę lodem.",
+      "5. Dodaj 50 ml cachaçy.",
+      "6. Wymieszaj.",
+      "7. Podawaj z dekoracją plasterka limonki.",
+    ],
+    "ingredients": [
+      "50 ml cachaçy",
+      "kilka kawałków limonki",
+      "1 łyżeczka cukru",
+      "lód",
+      "plasterki limonki do dekoracji"
+    ]
+  }
+]
