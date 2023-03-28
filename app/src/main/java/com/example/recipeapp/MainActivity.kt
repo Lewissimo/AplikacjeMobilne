@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val viewPager2 = findViewById<ViewPager2>(R.id.viewPager)
-        val fragmentList = arrayListOf(DinnersPage(), DrinksPage(), SweetsPage())
+        val fragmentList = arrayListOf(SweetsPage(), DrinksPage(), DinnersPage())
         val adapter = ViewPagerAdapter(this, fragmentList)
         viewPager2.adapter = adapter
     }

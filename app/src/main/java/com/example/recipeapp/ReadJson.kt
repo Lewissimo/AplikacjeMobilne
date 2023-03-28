@@ -6,8 +6,8 @@ import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
-import androidx.appcompat.app.AppCompatActivity
 import com.example.recipeapp.adapters.MenuAdapter
+import java.io.InputStream
 
 class ReadJson(context: Context, private val resources: Resources){
     private val packageName: String = context.packageName
@@ -17,9 +17,16 @@ class ReadJson(context: Context, private val resources: Resources){
         val img: String
     )
 
-    private fun createJsonObject(): Array<Button>? {
+    private fun createJsonObject(label: String): Array<Button>? {
         val gson = Gson();
-        val inputStream = resources.openRawResource(R.raw.abcde)
+        var inputStreamT: InputStream? = null
+
+            when(label){
+                "sweets" -> inputStreamT = resources.openRawResource(R.raw.sweets)
+                "drinks" -> inputStreamT = resources.openRawResource(R.raw.drinks)
+                "dinners" -> inputStreamT = resources.openRawResource(R.raw.dinners)
+            }
+        val inputStream: InputStream = inputStreamT!!
         val jsonString = inputStream.bufferedReader().use { it.readText() }
 
         return gson.fromJson(jsonString, Array<Button>::class.java)
@@ -36,8 +43,8 @@ class ReadJson(context: Context, private val resources: Resources){
 
 
 
-    fun loadDataToMenu(view: View){
-        val jsonObject = createJsonObject()
+    fun loadDataToMenu(view: View, label: String){
+        val jsonObject = createJsonObject(label)
         val recyclerView = setRecycleView(view)
 
         val adapter = MenuAdapter(jsonObject!!.toList(), resources, packageName)
