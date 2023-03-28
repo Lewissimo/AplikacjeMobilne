@@ -13,8 +13,17 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager.widget.ViewPager
+import androidx.viewpager2.adapter.FragmentStateAdapter
+import androidx.viewpager2.widget.ViewPager2
+import com.example.recipeapp.adapters.MainViewPagerAdapter
+import com.example.recipeapp.mainMenuFragments.DinnersPage
+import com.example.recipeapp.mainMenuFragments.DrinksPage
+import com.example.recipeapp.mainMenuFragments.SweetsPage
 import com.google.gson.Gson
 import org.json.JSONObject
 import java.io.BufferedReader
@@ -31,14 +40,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-    ReadJson(this, resources).loadDataToMenu()
+        val viewPager2 = findViewById<ViewPager2>(R.id.viewPager)
+        val fragmentList = arrayListOf(DinnersPage(), DrinksPage(), SweetsPage())
+        val adapter = ViewPagerAdapter(this, fragmentList)
+        viewPager2.adapter = adapter
+    }
 
+    private inner class ViewPagerAdapter(
+        fragmentActivity: FragmentActivity,
+        private val fragmentList: ArrayList<Fragment>
+    ) : FragmentStateAdapter(fragmentActivity) {
 
+        override fun getItemCount(): Int {
+            return fragmentList.size
+        }
 
+        override fun createFragment(position: Int): Fragment {
 
-
-
-
-
+            return fragmentList[position]
+        }
     }
 }

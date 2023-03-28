@@ -1,4 +1,4 @@
-package com.example.recipeapp.recycleviewadapters
+package com.example.recipeapp.adapters
 
 import android.content.res.Resources
 import android.view.LayoutInflater

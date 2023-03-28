@@ -1,79 +1,79 @@
-{
-  "categories": {
-    "sweets": [
-      {
-        "name": "Brownie",
-        "path": "carrot",
-        "ingredients": [
-          {
-            "ingredient": "masło",
-            "amount": 300
-          },
-          {
-            "ingredient": "czekolada mleczna",
-            "amount": 100
-          },
-          {
-            "ingredient": "czekolada gorzka",
-            "amount": 80
-          }
-        ],
-        "steps": [
-          "Połącz czekoladę z masłem",
-          "zjedz kawałek czkolady jak szef",
-          "pomieszaj"
-        ]
-      },
-      {
-        "name": "Sernik",
-        "path": "carrot",
-        "ingredients": [
-          {
-            "ingredient": "masło",
-            "amount": 300
-          },
-          {
-            "ingredient": "czekolada mleczna",
-            "amount": 100
-          },
-          {
-            "ingredient": "czekolada gorzka",
-            "amount": 80
-          }
-        ],
-        "steps": [
-          "Połącz czekoladę z masłem",
-          "zjedz kawałek czkolady jak szef",
-          "pomieszaj"
-        ]
-      },
-      {
-        "name": "Placek z kruszonką",
-        "path": "cake",
-        "ingredients": [
-          {
-            "ingredient": "masło",
-            "amount": 300
-          },
-          {
-            "ingredient": "czekolada mleczna",
-            "amount": 100
-          },
-          {
-            "ingredient": "czekolada gorzka",
-            "amount": 80
-          }
-        ],
-        "steps": [
-          "Połącz czekoladę z masłem",
-          "zjedz kawałek czkolady jak szef",
-          "pomieszaj"
-        ]
-      }
-    ],
-    "drinks": [
-    ],
-    "dinners": [
-    ]
-  }
-}
+[
+  [
+    {"name": "Brownie",
+      "path": "brownie",
+      "ingredients": [
+        {
+          "ingredient": "masło",
+          "amount": 300
+        },
+        {
+          "ingredient": "czekolada mleczna",
+          "amount": 100
+        },
+        {
+          "ingredient": "czekolada gorzka",
+          "amount": 80
+        }
+      ],
+      "steps": [
+        "Połącz czekoladę z masłem",
+        "zjedz kawałek czkolady jak szef",
+        "pomieszaj"
+      ]
+    },
+    {
+      "name": "Sernik",
+      "path": "cake",
+      "ingredients": [
+        {
+          "ingredient": "masło",
+          "amount": 300
+        },
+        {
+          "ingredient": "czekolada mleczna",
+          "amount": 100
+        },
+        {
+          "ingredient": "czekolada gorzka",
+          "amount": 80
+        }
+      ],
+      "steps": [
+        "Połącz czekoladę z masłem",
+        "zjedz kawałek czkolady jak szef",
+        "pomieszaj"
+      ]
+    },
+    {
+      "name": "Placek z kruszonką",
+      "path": "placek_z_kruszonka",
+      "ingredients": [
+        {
+          "ingredient": "masło",
+          "amount": 300
+        },
+        {
+          "ingredient": "czekolada mleczna",
+          "amount": 100
+        },
+        {
+          "ingredient": "czekolada gorzka",
+          "amount": 80
+        }
+      ],
+      "steps": [
+        "Połącz czekoladę z masłem",
+        "zjedz kawałek czkolady jak szef",
+        "pomieszaj"
+      ]
+    }
+  ],
+
+  [
+  ],
+
+  [
+  ]
+
+]
