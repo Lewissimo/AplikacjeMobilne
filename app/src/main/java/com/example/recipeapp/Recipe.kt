@@ -36,7 +36,7 @@ class Recipe : AppCompatActivity() {
             val jsonString = inputStream.bufferedReader().use { it.readText() }
             val person = gson.fromJson(jsonString, Array<RecipeClass>::class.java)
             for(p in person){
-                println(p.list)
+
                 if(parameterValue == p.title){
                     val arrayAdapter: ArrayAdapter<*>
                     var mListView = findViewById<ListView>(R.id.userlist)

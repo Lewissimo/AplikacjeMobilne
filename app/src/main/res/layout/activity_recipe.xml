@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:recipeapp="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:recipeapp="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
     android:orientation="vertical"
-    android:background="@color/black">
+    android:padding="12dp">
+
     <ListView
         android:id="@+id/userlist"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-    </ListView>
-    <EditText
-        android:id="@+id/minutes_input"
-        android:inputType="number"
-        android:hint="Enter minutes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:textColor="@color/white"/>
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/seconds_input"
-        android:inputType="number"
-        android:hint="Enter seconds"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:textColor="@color/white"/>
+        android:orientation="horizontal"
+        android:padding="4px">
+
+        <EditText
+            android:id="@+id/minutes_input"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:hint="Enter minutes"
+            android:inputType="number"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/seconds_input"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:hint="Enter seconds"
+            android:inputType="number"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/countdown_text"
-        android:text="00:00"
-        android:textSize="60sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="00:00"
+        android:textSize="60sp" />
 
     <Button
         android:id="@+id/start_button"
-        android:text="Start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="Start" />
 
     <Button
         android:id="@+id/pause_button"
-        android:text="Pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/reset_button"
-        android:text="Reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="Pause" />
 </LinearLayout>
