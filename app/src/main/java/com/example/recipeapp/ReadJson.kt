@@ -35,9 +35,9 @@ class ReadJson(context: Context, private val resources: Resources){
     }
 
 
-    private fun setRecycleView(view: View): RecyclerView? {
+    private fun setRecycleView(view: View, gridVal: Int): RecyclerView? {
         val recyclerView = view.findViewById<RecyclerView>(R.id.optionsBox)
-        val layoutManager = GridLayoutManager(thisContext, 3)
+        val layoutManager = GridLayoutManager(thisContext, gridVal)
         recyclerView.layoutManager = layoutManager
         return recyclerView
     }
@@ -45,9 +45,9 @@ class ReadJson(context: Context, private val resources: Resources){
 
 
 
-    fun loadDataToMenu(view: View, label: String){
+    fun loadDataToMenu(view: View, label: String, gridVal: Int){
         val jsonObject = createJsonObject(label)
-        val recyclerView = setRecycleView(view)
+        val recyclerView = setRecycleView(view, gridVal)
 
         val adapter = MenuAdapter(jsonObject!!.toList(), resources, packageName)
         recyclerView?.adapter = adapter

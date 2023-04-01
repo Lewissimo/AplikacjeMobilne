@@ -1,9 +1,15 @@
 package com.example.recipeapp
 
+import android.content.res.Configuration
 import android.os.*
+import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.annotation.RequiresApi
+import androidx.cardview.widget.CardView
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager2.widget.ViewPager2
 import com.google.gson.Gson
 import java.io.File
 import java.nio.file.Paths
@@ -27,6 +33,37 @@ class DetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
+
+//        Tu dodałem
+
+        val box: LinearLayout = findViewById(R.id.stopperBox)
+        val text: TextView = findViewById(R.id.countdown_text)
+        if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
+
+            box.orientation = LinearLayout.VERTICAL
+            val params = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            text.layoutParams = params
+        } else {
+
+            box.orientation = LinearLayout.HORIZONTAL
+            val params = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            text.layoutParams = params
+
+        }
+
+
+
+
+//        ====================================
+
+
+
 
         val name: Array<String> = intent.getStringArrayExtra("name") as Array<String>
         val steps: Array<String> = intent.getStringArrayExtra("steps") as Array<String>
@@ -92,5 +129,29 @@ class DetailsActivity : AppCompatActivity() {
         }
 
     }
+
+
+//    Dodałem
+override fun onConfigurationChanged(newConfig: Configuration) {
+    super.onConfigurationChanged(newConfig)
+    val box: LinearLayout = findViewById(R.id.stopperBox)
+    val text: TextView = findViewById(R.id.countdown_text)
+
+    if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+        box.orientation = LinearLayout.HORIZONTAL
+        val params = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.WRAP_CONTENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        text.layoutParams = params
+    } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
+        box.orientation = LinearLayout.VERTICAL
+        val params = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        text.layoutParams = params
+    }
+}
 
 }

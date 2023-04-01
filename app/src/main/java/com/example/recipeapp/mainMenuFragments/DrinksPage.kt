@@ -50,7 +50,7 @@ class DrinksPage : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         // Here you can access myView and modify its contents as needed
         val readJson = ReadJson(context, resources)
-        readJson.loadDataToMenu(view, "drinks")
+        readJson.loadDataToMenu(view, "drinks", 3)
 
     }
     companion object {
